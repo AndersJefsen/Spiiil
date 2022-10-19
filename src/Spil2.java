@@ -171,5 +171,11 @@ while (sum1==10);
 }
 while(sum2==10);
 }
+if(acct2.getBalance()>=3000){
+    System.out.println("Player2 har vundet");
+}
+else{
+    System.out.println("Player1 har vundet");
+}
 }
 }
