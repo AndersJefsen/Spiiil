@@ -5,8 +5,8 @@ public class Spil2 {
     //  Creates some bank accounts and requests various services.
     //-----------------------------------------------------------------
     public static void main(String[] args) {
-        Konto acct1 = new Konto("P1Money", 1, 1000);
-        Konto acct2 = new Konto("P2Money", 2, 1000);
+        Konto acct1 = new Konto("Player1konto", 1, 1000);
+        Konto acct2 = new Konto("PLayer2konto", 2, 1000);
 
         Die die1pl1, die2pl1;
         int sum1;
