@@ -42,6 +42,10 @@ public class Konto
     public double withdraw (double amount)
     {
         balance = balance - amount;
+        if(balance<0){
+            return balance=0;
+        }
+        else
         return balance;
     }
 
