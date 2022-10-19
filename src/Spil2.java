@@ -70,7 +70,7 @@ while((acct1.getBalance()< 3000)&&(acct2.getBalance()<3000) ) {
                     P1Balance);
         }
         if (sum1 == 10) {
-            System.out.println("Player1 er landet på The Werewall. Du får trukket 80 fra din pengebeholdning, men til gengæld får du en ekstra tur.");
+            System.out.println("Player1 er landet på The Werewall. Du får trukket 80 fra din pengebeholdning, men til gengæld får du en ekstra tur."+acct1.withdraw(80));
 
         }
         if (sum1 == 11) {
@@ -152,7 +152,7 @@ while (sum1==10);
                 P2Balance);
     }
     if (sum2 == 10) {
-        System.out.println("Player2 er landet på The Werewall. Du får trukket 80 fra din pengebeholdning, men til gengæld får du en ekstra tur." + acct2.withdraw(50));
+        System.out.println("Player2 er landet på The Werewall. Du får trukket 80 fra din pengebeholdning, men til gengæld får du en ekstra tur." +'\n'+"Player2s konto efter udbetalingen: " + acct2.withdraw(80));
     }
     if (sum2 == 11) {
         System.out.println("Player2 er landet på The pit. Du får trukket 50 fra din pengebeholdning" + '\n'+"Player2s konto efter tilbagetrækning: " +
